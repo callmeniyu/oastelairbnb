@@ -222,7 +222,7 @@ export default function Home() {
         </header>
 
         <main className="relative z-10">
-          <AnimatedSection className="relative mx-auto grid w-full max-w-6xl gap-10 rounded-3xl border border-white/10 bg-slate-950/70 px-6 pb-16 pt-6 shadow-[0_25px_60px_rgba(15,23,42,0.45)] md:grid-cols-[1.1fr_0.9fr] md:items-start md:border-transparent md:bg-transparent md:px-10 md:pb-20 md:pt-8 md:shadow-none">
+          <AnimatedSection className="relative mx-auto grid w-full max-w-6xl gap-10 border border-white/10 bg-slate-950/70 px-6 pb-16 pt-6 shadow-[0_25px_60px_rgba(15,23,42,0.45)] md:grid-cols-[1.1fr_0.9fr] md:items-start md:border-transparent md:bg-transparent md:px-10 md:pb-20 md:pt-8 md:shadow-none">
             <div className="flex flex-col mt-6 gap-6">
               <p className="reveal text-sm font-semibold uppercase tracking-[0.32em] text-emerald-300/80">
                 Airbnb Property Management in Cameron Highlands
@@ -322,7 +322,7 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
-              <div className="absolute -right-20 top-35 hidden h-80 w-56 md:block">
+              <div className="absolute -right-20 top-56 md:top-35 h-80 w-56 md:block">
                 {heroHighlights.map((item, index) => {
                   const Icon = item.icon;
                   const slot =
@@ -369,7 +369,7 @@ export default function Home() {
                   );
                 })}
               </div>
-              <div className="absolute right-3 top-3 z-20 h-64 w-64 md:hidden">
+              <div className="absolute right-3 top-3 z-20 h-64 w-64 hidden">
                 {heroHighlights.map((item, index) => {
                   const Icon = item.icon;
                   const slot =
@@ -394,7 +394,7 @@ export default function Home() {
                         scale: position.scale,
                       }}
                       transition={{ duration: 0.7, ease: "easeInOut" }}
-                      className={`absolute right-0 top-0 w-56 rounded-2xl border border-emerald-300/40 bg-slate-950/95 px-4 py-3 text-xs text-white shadow-[0_0_30px_rgba(16,185,129,0.25)] ${
+                      className={`absolute right-0 top-56 w-56  rounded-2xl border border-emerald-300/40 bg-slate-950/95 px-4 py-3 text-xs text-white shadow-[0_0_30px_rgba(16,185,129,0.25)] ${
                         isVisible ? "" : "pointer-events-none"
                       }`}
                       style={{ transformOrigin: "right center" }}
