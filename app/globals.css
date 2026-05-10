@@ -24,3 +24,142 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #0f766e 0%, #22c55e 45%, #60a5fa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(15, 118, 110, 0.14);
+  box-shadow: 0 30px 80px rgba(15, 23, 42, 0.18);
+  backdrop-filter: blur(18px);
+}
+
+.dark .glass-card {
+  background: rgba(15, 23, 42, 0.7);
+  border: 1px solid rgba(148, 163, 184, 0.22);
+}
+
+.noise-overlay {
+  background-image: url("https://www.transparenttextures.com/patterns/noise.png");
+  opacity: 0.2;
+  mix-blend-mode: soft-light;
+}
+
+.halo {
+  filter: blur(60px);
+  opacity: 0.6;
+}
+
+.reveal {
+  animation: fadeUp 0.8s ease both;
+}
+
+.reveal-delay-1 {
+  animation-delay: 0.12s;
+}
+
+.reveal-delay-2 {
+  animation-delay: 0.24s;
+}
+
+.reveal-delay-3 {
+  animation-delay: 0.36s;
+}
+
+.float {
+  animation: float 8s ease-in-out infinite;
+}
+
+.float-slow {
+  animation: float 12s ease-in-out infinite;
+}
+
+.pulse-soft {
+  animation: pulseSoft 6s ease-in-out infinite;
+}
+
+.drift {
+  animation: drift 14s ease-in-out infinite;
+}
+
+.tilt {
+  animation: tilt 10s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.spin-slow {
+  animation: spin 18s linear infinite;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-16px);
+  }
+}
+
+@keyframes pulseSoft {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px) translateX(10px);
+  }
+}
+
+@keyframes tilt {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(1.2deg);
+  }
+}
+
+.divider-line {
+  background: linear-gradient(90deg, transparent 0%, rgba(15, 118, 110, 0.5) 50%, transparent 100%);
+}
+
+.section-grid {
+  background-image: radial-gradient(rgba(15, 118, 110, 0.18) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
