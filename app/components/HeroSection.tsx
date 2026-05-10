@@ -76,7 +76,7 @@ type HeroSectionProps = {
 };
 
 const HeroSection = ({ activeHighlight }: HeroSectionProps) => (
-  <AnimatedSection className="relative mx-auto grid w-full max-w-6xl gap-10 border  overflow-hidden md:overflow-visible border-white/10 bg-slate-950/70 px-6 pb-16 pt-6 shadow-[0_25px_60px_rgba(15,23,42,0.45)] md:grid-cols-[1.1fr_0.9fr] md:items-start md:border-transparent md:bg-transparent md:px-10 md:pb-20 md:pt-8 md:shadow-none">
+  <AnimatedSection className="relative mx-auto grid w-full max-w-6xl gap-10  overflow-hidden md:overflow-visible border-white/10 bg-slate-950/70 px-6 pb-16 pt-6 shadow-[0_25px_60px_rgba(15,23,42,0.45)] md:grid-cols-[1.1fr_0.9fr] md:items-start md:border-transparent md:bg-transparent md:px-10 md:pb-20 md:pt-8 md:shadow-none">
     <div className="flex flex-col mt-6 gap-6">
       <p className="reveal text-sm font-semibold uppercase tracking-[0.32em] text-emerald-300/80">
         Airbnb Property Management in Cameron Highlands

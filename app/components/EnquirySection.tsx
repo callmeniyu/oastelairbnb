@@ -39,7 +39,7 @@ const EnquirySection = ({
 }: EnquirySectionProps) => (
   <AnimatedSection
     id="enquiry"
-    className="relative mx-auto grid w-full max-w-6xl gap-10 px-6 pb-20 md:grid-cols-[0.9fr_1.1fr] md:items-start md:px-10"
+    className="relative mx-auto grid w-full max-w-6xl gap-10 mt-4 px-6 pb-20 md:grid-cols-[0.9fr_1.1fr] md:items-start md:px-10"
   >
     <div className="flex flex-col gap-5">
       <p className="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-300/80">
