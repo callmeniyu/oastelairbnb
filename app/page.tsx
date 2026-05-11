@@ -10,6 +10,7 @@ import ExperienceSection from "./components/ExperienceSection";
 import FAQSection from "./components/FAQSection";
 import HeroSection, { HERO_HIGHLIGHTS_COUNT } from "./components/HeroSection";
 import OTAPartnersSection from "./components/OTAPartnersSection";
+import ProfitModelSection from "./components/ProfitModelSection";
 import ResultsSection from "./components/ResultsSection";
 import SectionDivider from "./components/SectionDivider";
 import ServicesSection from "./components/ServicesSection";
@@ -132,6 +133,7 @@ export default function Home() {
           <SectionDivider className="my-12" />
           <ExperienceSection />
           <ResultsSection />
+          <ProfitModelSection />
           <SectionDivider className="my-6 md:mb-24" />
           <WhyChooseSection />
           <div className="divider-line h-px w-full my-6 md:mb-24" />
