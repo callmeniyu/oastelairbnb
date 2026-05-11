@@ -79,7 +79,7 @@ const HeroSection = ({ activeHighlight }: HeroSectionProps) => (
   <AnimatedSection className="relative mx-auto grid w-full max-w-6xl gap-10  overflow-hidden md:overflow-visible border-white/10 bg-slate-950/70 px-6 pb-16 pt-6 shadow-[0_25px_60px_rgba(15,23,42,0.45)] md:grid-cols-[1.1fr_0.9fr] md:items-start md:border-transparent md:bg-transparent md:px-10 md:pb-20 md:pt-8 md:shadow-none">
     <div className="flex flex-col mt-6 gap-6">
       <p className="reveal text-sm font-semibold uppercase tracking-[0.32em] text-emerald-300/80">
-        Airbnb Property Management in Cameron Highlands
+        Short Term Rental Management in Cameron Highlands
       </p>
       <h1 className="reveal reveal-delay-1 text-4xl font-black leading-[1.02] tracking-tight text-white sm:text-5xl md:text-5xl">
         <span className="font-black text-white drop-shadow-[0_12px_32px_rgba(16,185,129,0.5)]">
@@ -93,11 +93,13 @@ const HeroSection = ({ activeHighlight }: HeroSectionProps) => (
         operations so you enjoy higher returns without the workload.
       </p>
       <div className="">
-        <div className="flex flex-wrap items-center gap-3 text-white/70">
+        <div className="flex items-center gap-3 text-white/70">
           {heroLogos.map((logo) => (
             <div
               key={logo.name}
-              className="flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-4 py-2"
+              className={`flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-3 md:px-4 py-2 ${
+                logo.name === "Trip.com" ? "hidden md:flex" : ""
+              }`}
             >
               <img
                 src={logo.src}

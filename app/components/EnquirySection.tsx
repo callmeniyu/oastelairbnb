@@ -158,6 +158,9 @@ const EnquirySection = ({
                 <option value="1 Bedroom">1 Bedroom</option>
                 <option value="2 Bedroom">2 Bedroom</option>
                 <option value="3 Bedroom">3 Bedroom</option>
+                <option value="4 Bedroom">4 Bedroom</option>
+                <option value="5 Bedroom">5 Bedroom</option>
+                <option value="5+ Bedroom">5+ Bedroom</option>
               </select>
               <select
                 name="propertyType"
