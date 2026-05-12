@@ -85,7 +85,11 @@ const HeroSection = ({ activeHighlight }: HeroSectionProps) => (
         <span className="font-black text-white drop-shadow-[0_12px_32px_rgba(16,185,129,0.5)]">
           Earn More
         </span>
-        , Stress Less with <span className="gradient-text">Oastel</span>
+        , Stress Less with{" "}
+        <span className="gradient-text">
+          Oastel
+          <span className="md:hidden text-sm gradient-text"> SDN.BHD.</span>
+        </span>
       </h1>
       <p className="reveal reveal-delay-2 max-w-xl text-base font-normal leading-7 text-white/70 sm:text-lg sm:leading-8">
         Turn your property in Cameron Highlands into a high-performing
@@ -131,7 +135,7 @@ const HeroSection = ({ activeHighlight }: HeroSectionProps) => (
           </h3>
           <ul className="mt-3 space-y-2 text-xs text-slate-600">
             <li className="flex items-center gap-2">
-              <FiCheckCircle className="text-emerald-500" /> Higher rental
+              <FiCheckCircle className="text-emerald-500" /> Higher property
               income
             </li>
             <li className="flex items-center gap-2">

@@ -15,7 +15,7 @@ const resultsStats = [
     icon: FiStar,
   },
   {
-    value: "48h",
+    value: "2-6 weeks",
     label: "Average setup timeline",
     icon: FiClock,
   },

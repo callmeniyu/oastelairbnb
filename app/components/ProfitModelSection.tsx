@@ -7,7 +7,8 @@ const profitSteps = [
   },
   {
     title: "Operating Expenses (25%)",
-    description: "Electricity, water, and internet.",
+    description:
+      "Electricity, water, internet, cleaning, laundry and housekeeping.",
   },
   {
     title: "Net Profit (75%)",

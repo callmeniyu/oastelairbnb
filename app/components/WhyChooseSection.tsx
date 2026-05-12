@@ -32,27 +32,31 @@ const WhyChooseSection = () => (
       </div>
       <div className="rounded-3xl border border-white/10 bg-linear-to-br from-emerald-500/20 via-white/5 to-transparent p-8">
         <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-100/70">
-          Financial Transparency
+          Financial Reporting
         </p>
         <h3 className="mt-4 text-2xl font-semibold text-white">
-          Monthly reporting that actually helps
+          Monthly reports prepared by our team
         </h3>
         <p className="mt-3 text-sm text-white/70">
-          See exactly how your property performs with clean dashboards,
-          actionable insights, and clear payout timelines.
+          Get comprehensive monthly reports. Each report includes transaction
+          breakdowns, payout schedules, and recommended actions.
         </p>
         <div className="mt-6 space-y-3 text-sm text-white/70">
           <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-            <span>Net earnings</span>
-            <span className="text-white">RM 12,450</span>
+            <span>Monthly PDF report</span>
+            <span className="text-white">Delivered by email</span>
           </div>
           <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-            <span>Occupancy</span>
-            <span className="text-white">88%</span>
+            <span>Transaction breakdown</span>
+            <span className="text-white">Itemised</span>
           </div>
           <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-            <span>Avg. nightly rate</span>
-            <span className="text-white">RM 410</span>
+            <span>Payout schedule</span>
+            <span className="text-white">Clear dates & amounts</span>
+          </div>
+          <div className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
+            <span>Review support</span>
+            <span className="text-white">Call on request</span>
           </div>
         </div>
       </div>

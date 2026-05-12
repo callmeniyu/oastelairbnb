@@ -10,7 +10,7 @@ const CTASection = () => (
           Start Today
         </p>
         <h2 className="mt-3 text-3xl font-semibold text-white md:text-4xl">
-          Let Oastel manage your Airbnb and unlock effortless income
+          Let Oastel manage your Property and unlock effortless income
         </h2>
         <p className="mt-4 text-sm text-white/70">
           Get started now and unlock your property’s full earning potential.

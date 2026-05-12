@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "Oastel | Airbnb Property Management in Cameron Highlands",
   description:
     "Earn more, stress less with Oastel. Full-service Airbnb property management in Cameron Highlands, from setup to daily operations.",
+  icons: {
+    icon: "/favicons/favicon.ico",
+    shortcut: "/favicons/favicon.ico",
+    apple: "/favicons/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

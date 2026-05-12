@@ -28,7 +28,7 @@ const TrustSecuritySection = () => (
           We partner with trusted financial institutions to ensure secure,
           reliable, and seamless transactions for all our guests.
         </p>
-        <div className="rounded-3xl border border-white/10 bg-slate-950/60 p-6">
+        <div className="rounded-3xl hidden md:block border border-white/10 bg-slate-950/60 p-6">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-300/80">
             OASTEL SDN. BHD.
           </p>
@@ -88,6 +88,15 @@ const TrustSecuritySection = () => (
             Our banking partnerships ensure efficient transaction management
             with high standards of financial security, compliance, and
             transparency.
+          </p>
+        </div>
+
+        <div className="rounded-3xl md:hidden border border-white/10 bg-slate-950/60 p-6">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-emerald-300/80">
+            OASTEL SDN. BHD.
+          </p>
+          <p className="mt-2 text-sm text-white/70">
+            Company Registration No: 202401034459 (1580306-V)
           </p>
         </div>
       </div>

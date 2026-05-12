@@ -11,7 +11,7 @@ import AnimatedSection from "./AnimatedSection";
 
 const serviceCards = [
   {
-    title: "Maximize Your Rental Income",
+    title: "Maximize Your Property Income",
     detail:
       "Dynamic pricing, multi-platform exposure, and optimized listings with professional photography.",
     icon: FiTrendingUp,

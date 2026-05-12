@@ -21,7 +21,7 @@ const otaPartners = [
   },
   {
     name: "Google Hotels",
-    src: `https://img.logo.dev/google.com?token=${process.env.NEXT_PUBLIC_LOGO_DEV_PUBLISHABLE_KEY}`,
+    src: `/images/google_hotels.png`,
   },
   {
     name: "Trip.com",
@@ -46,7 +46,7 @@ const otaPartners = [
 ];
 
 const OTAPartnersSection = () => (
-  <AnimatedSection className="relative mx-auto w-full max-w-6xl px-6 pb-16 md:px-10">
+  <AnimatedSection className="relative mx-auto w-full max-w-6xl px-6 pb-6 md:pb-16  md:px-10">
     <div className="divider-line h-px w-full" />
     <div className="mt-10">
       <div className="flex flex-wrap items-center justify-between gap-4">
@@ -62,7 +62,7 @@ const OTAPartnersSection = () => (
           10+ global channels
         </span>
       </div>
-      <div className="mt-8 grid gap-5 grid-cols-2 md:grid-cols-5">
+      <div className="hidden mt-8 md:grid gap-5 grid-cols-2 md:grid-cols-5">
         {otaPartners.map((logo) => (
           <div
             key={logo.name}
@@ -78,6 +78,26 @@ const OTAPartnersSection = () => (
             <p className="mt-3 text-center text-md font-bold text-white ">
               {logo.name}
             </p>
+          </div>
+        ))}
+      </div>
+
+      <div className="md:hidden grid grid-cols-2 mt-4 items-center gap-3 text-white/70">
+        {otaPartners.map((logo) => (
+          <div
+            key={logo.name}
+            className={`flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-3 md:px-4 py-2 ${
+              logo.name === "Trip.com" ? "hidden md:flex" : ""
+            }`}
+          >
+            <img
+              src={logo.src}
+              alt={`${logo.name} logo`}
+              className="h-7 w-7 rounded-full object-contain"
+            />
+            <span className="text-xs font-medium text-white/70">
+              {logo.name}
+            </span>
           </div>
         ))}
       </div>

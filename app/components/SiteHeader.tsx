@@ -5,7 +5,7 @@ const SiteHeader = () => (
     <nav className="mx-auto md:flex w-full hidden max-w-6xl items-center justify-between px-6 py-6 md:px-10">
       <div className="font-extrabold md:font-semibold">
         <h1 className="text-3xl tracking-wide">
-          Oastel <span className="text-xs text-gray-400">SDN.BHD.</span>
+          Oastel <span className="text-xs text-gray-300">SDN.BHD.</span>
         </h1>
       </div>
       <div className="hidden items-center gap-8 text-sm text-white/80 md:flex">

@@ -17,7 +17,7 @@ import ServicesSection from "./components/ServicesSection";
 import SiteFooter from "./components/SiteFooter";
 import SiteHeader from "./components/SiteHeader";
 import TechnologySection from "./components/TechnologySection";
-import TestimonialsSection from "./components/TestimonialsSection";
+// import TestimonialsSection from "./components/TestimonialsSection";
 import TrustSecuritySection from "./components/TrustSecuritySection";
 import WhyChooseSection from "./components/WhyChooseSection";
 
@@ -139,7 +139,6 @@ export default function Home() {
           <div className="divider-line h-px w-full my-6 md:mb-24" />
           <TrustSecuritySection />
           <div className="divider-line h-px w-full my-12" />
-          <TestimonialsSection />
           <FAQSection />
           <CTASection />
         </main>

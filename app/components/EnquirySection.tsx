@@ -46,7 +46,7 @@ const EnquirySection = ({
         Start Today
       </p>
       <h2 className="text-3xl font-semibold text-white md:text-4xl">
-        Get a tailored revenue plan for your Airbnb
+        Get a tailored revenue plan for your property
       </h2>
       <p className="text-sm text-white/70">
         Share your property details and we will respond with a custom roadmap,
