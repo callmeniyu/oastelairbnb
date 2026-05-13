@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Oastel | Airbnb Property Management in Cameron Highlands",
+  title: "Oastel | Short Term Rental Management in Cameron Highlands",
   description:
-    "Earn more, stress less with Oastel. Full-service Airbnb property management in Cameron Highlands, from setup to daily operations.",
+    "Earn more, stress less with Oastel. Full-service property management in Cameron Highlands, from setup to daily operations.",
   icons: {
     icon: "/favicons/favicon.ico",
     shortcut: "/favicons/favicon.ico",

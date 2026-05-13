@@ -86,9 +86,7 @@ const OTAPartnersSection = () => (
         {otaPartners.map((logo) => (
           <div
             key={logo.name}
-            className={`flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-3 md:px-4 py-2 ${
-              logo.name === "Trip.com" ? "hidden md:flex" : ""
-            }`}
+            className={`flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-3 md:px-4 py-2`}
           >
             <img
               src={logo.src}

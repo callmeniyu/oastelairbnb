@@ -9,7 +9,6 @@ type EnquiryFormData = {
   email: string;
   buildingLocation: string;
   buildingName: string;
-  buildingLayout: string;
   bedroomType: string;
   propertyType: string;
   furnishingStatus: string;
@@ -135,13 +134,6 @@ const EnquirySection = ({
                 value={formData.buildingName}
                 onChange={handleChange}
                 placeholder="Building name"
-                className="rounded-2xl border border-slate-700 bg-slate-900/90 px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-300/20"
-              />
-              <input
-                name="buildingLayout"
-                value={formData.buildingLayout}
-                onChange={handleChange}
-                placeholder="Building layout"
                 className="rounded-2xl border border-slate-700 bg-slate-900/90 px-4 py-3 text-sm text-white placeholder:text-slate-500 focus:border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-300/20"
               />
             </div>
